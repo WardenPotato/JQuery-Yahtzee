@@ -1,0 +1,76 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#yahtzee{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 245, 235);
+    border: 1px solid green;
+    padding: 10px;
+}
+#logo{
+    /*height: 50px;*/
+    text-align: center;
+}
+#dicediv{
+    height: 60px;
+}
+.dice{
+    width: 50px;
+    height: 50px;
+}
+#throw{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.diceholder{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: inline-block;
+}
+#middle{
+    height: 175px;
+}
+#buttons_left{
+    float: left;
+    width: 145px;
+    text-align: right;
+    padding-right: 5px;
+
+}
+#buttons_right{
+    float: right;
+    width: 145px;
+    text-align: left;
+    padding-left: 5px;
+}
+#buttons_bottom{
+    /*width: 300px;*/
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+#buttons_left button, #buttons_right button, #throw button, #buttons_bottom button{
+    width: 100px;
+    height: 25px;
+    box-sizing: border-box;
+    background-color: rgb(255, 235, 194);
+}
+.score{
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#score_total{
+    width: 79px !important;
+}
+#lblScore{
+    margin-left: 15px;
+}
+input:disabled{
+    background-color: white;
+}
